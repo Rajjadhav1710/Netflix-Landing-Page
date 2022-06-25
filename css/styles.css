@@ -1,0 +1,619 @@
+/* general styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.accordion-header button {
+    font-size: 1.625rem;
+}
+
+p {
+    font-size: 1.625rem;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+.center-vertically {
+    align-items: center;
+}
+
+.feature-container {
+    padding: 2% 5%;
+}
+/* title section */
+#title {
+    border-bottom: 8px solid #222;
+    background-image: url("../images/title_background.jpg");
+    background-size: cover;
+}
+
+.black-foreground {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+nav {
+    padding: 1.5rem 3.5rem !important;
+}
+
+.netflix-logo {
+    width: 8.375rem;
+    height: 2.25rem;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-item select {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: 1px solid #aaa;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2px;
+}
+
+.nav-item select option{
+    background-color: grey;
+}
+
+.sign-in-btn {
+    background-color: #e50914;
+    padding: 0.3rem 1rem;
+    border-radius: 2px;
+}
+
+.site-title-container {
+    text-align: center;
+    padding: 10% 25%;
+}
+
+.site-title h1{
+    font-size: 3rem;
+}
+
+.site-title h2{
+    font-size: 1.625rem;
+    margin: 2rem;
+}
+
+.membership-form h3{
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-floating label{
+    color: grey;
+}
+
+.mail-box {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #ffa00a;
+    border-radius: 0;
+}
+
+.mail-label {
+    margin-left: 10px;
+}
+.get-started-btn-container {
+    padding-left: 0;
+}
+
+.get-started-btn {
+    background-color: #e50914;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    font-size: 1.625rem;
+    padding: 0.62rem 1rem;
+}
+
+.form-floating {
+    padding-right: 0;
+}
+
+/* features for tv section */
+#features_for_tv {
+    border-bottom: 8px solid #222;
+}
+
+.tv-image-video-container {
+    position: relative;
+}
+
+.tv-image {
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.tv-video {
+    position: absolute;
+    top: 20.5%;
+    right: 16%;
+    width: 69%;
+    height: 55%;
+
+}
+
+.features-for-tv-title {
+    padding-right: 3rem;
+}
+
+/* features for mobile section */
+#features_for_mobile {
+    border-bottom: 8px solid #222;
+}
+
+.mobile-image-container {
+    padding-right: 7rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    position: relative;
+}
+
+.mobile-image {
+    max-width: 100%;
+}
+
+.download-card {
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    position: absolute;
+    background-color: black;
+    width: 55%;
+    /* height: 25%; */
+    padding-left: 1rem;
+    top: 68%;
+    left: 13%;
+}
+
+.download-card .center-vertically {
+    margin: 0.7rem 0;
+}
+
+.download-card-title-container p {
+    margin: 0;
+}
+
+.stranger-things {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.downloading {
+    color: rgb(0, 113, 235);
+    font-size: 0.9rem;
+}
+
+.boxshot-image-container {
+    padding-left: 0;
+}
+
+.download-icon-container {
+    padding-right: 0;
+}
+
+.boxshot-image {
+    width: 3rem;
+}
+
+.download-icon {
+    width: 3rem;
+}
+
+/* .boxshot-image,.download-icon {
+    max-width: 100%;
+} */
+
+
+/* features for pc section */
+#features_for_pc {
+    border-bottom: 8px solid #222;
+}
+
+#features_for_pc .feature-container {
+    padding-top: 4.7%;
+    padding-bottom: 4.7%;
+}
+
+.pc-image-video-container {
+    position: relative;
+}
+
+.device-pile-in-image {
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.pc-video {
+    position: absolute;
+    top: 9%;
+    right: 21%;
+    width: 60%;
+    height: 50%;
+}
+
+/* features for children section */
+#features_for_children {
+    border-bottom: 8px solid #222;
+}
+
+#features_for_children .feature-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.children-image {
+    max-width: 100%;
+}
+
+/* faq section */
+#faq {
+    /* padding: 10% 18%; */
+    padding: 0 18% 6% 18%;
+    /* padding-top: 0; */
+    border-bottom: 8px solid #222;
+}
+
+#faq h1,#faq .membership-form {
+    text-align: center;
+}
+
+#faq h1{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#faq .membership-form {
+    margin-top: 8%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.accordion {
+    background-color: black;
+}
+
+.accordion-item{
+    background-color: black;
+    margin-bottom: 0.5rem;
+}
+
+.accordion-button,.accordion-body {
+    background-color: #303030 !important;
+    color: white;
+    border:none;
+}
+
+.accordion-button {
+    padding: 1.2rem;
+}
+
+.accordion-button:focus{
+
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-collapse{
+    margin-top:2px;
+}
+
+/* footer */
+footer {
+    /* padding: 5% 15%; */
+    padding: 7% 15% 2% 15%;
+}
+
+footer,footer a {
+    color: #757575;
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+footer select {
+    background-color: rgba(0,0,0,0);
+    color: #757575;
+    border: 1px solid #757575;
+    padding: 0.7rem 1.1rem;
+    border-radius: 2px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer select option{
+    background-color: black;
+}
+
+footer .container-fluid .row div{
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #757575;
+}
+
+/* media queries */
+
+/* media queries for title section */
+
+@media screen and (max-width : 576px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width : 1200px) and (max-width : 1258px) {
+    .fa-chevron-right {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width : 1199px){
+    .mail-box{
+        border-radius: 2px;
+    }
+    .get-started-btn {
+        background-color: #e50914;
+        border-radius: 2px;
+        font-size: 1rem;
+        padding: 0.62rem 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width : 950px) {
+    .netflix-logo {
+        width: 6.9rem;
+        height: 2rem;
+    }
+
+    .site-title h1{
+        font-size: 2.5rem;
+    }
+
+    .site-title h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width : 740px) {
+    .form-floating .mail-box {
+        height: 48px;
+    }
+
+    .form-floating>label {
+        padding: 0.7rem 0.75rem;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .site-title h1{
+        font-size: 1.75rem;
+    }
+
+    .site-title h2{
+        font-size: 1.125rem;
+    }
+
+    .membership-form h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width : 1042px) {
+    .site-title-container {
+        padding: 10% 20%;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .site-title-container {
+        padding: 10% 15%;
+    }
+}
+
+@media screen and (max-width : 628px) {
+    .site-title-container {
+        padding: 10% 5%;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    nav {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .nav-item select {
+        padding: 2px 8px;    
+    }
+
+    .sign-in-btn {
+        padding: 2px 8px;
+    }
+}
+
+/* media queries for features section */
+
+@media screen and (max-width : 1194px) {
+    .download-card {        
+        width: 57%;
+        /* height: 25%; */
+        padding-left: 1rem;
+        top: 73%;
+        left: 11%;
+        text-align: left;
+    }
+
+    .download-card-title-container {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width : 991px) {
+    #features_for_tv,#features_for_mobile,#features_for_pc,#features_for_children {
+        text-align: center;
+    } 
+
+    #features_for_mobile .feature-container>.row,#features_for_children .row {
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    .feature-container {
+        padding: 7% 5%;
+    }
+
+    .mobile-image-container {
+        padding-right: 0;
+    }
+
+    .download-card {        
+        width: 45%;
+        /* height: 25%; */
+        padding-left: 1rem;
+        top: 73%;
+        left: 27%;
+        text-align: left;
+    }
+
+    #faq {
+        padding: 0 10% 6% 10%;
+    }
+
+    .accordion-header button {
+        font-size: 1.25rem;
+    }
+
+    #faq h1 {
+        margin-bottom: 5%;
+    }
+
+    .download-card-title-container {
+        padding-left: 1rem;
+    }
+
+    .features-for-tv-title {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .download-card {        
+        width: 55%;
+        /* height: 25%; */
+        padding-left: 1rem;
+        top: 73%;
+        left: 22%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width : 540px) {
+    .download-card {        
+        width: 60%;
+        /* height: 25%; */
+        padding-left: 1rem;
+        top: 73%;
+        left: 20%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .download-card {        
+        width: 85%;
+        /* height: 25%; */
+        padding-left: 1rem;
+        top: 73%;
+        left: 8%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width : 310px) {
+    .download-card {        
+        width: 90%;
+        /* height: 25%; */
+        padding-left: 1rem;
+        top: 73%;
+        left: 8%;
+        text-align: left;
+    }
+}
+
+
+
+/* media queries for footer section */
+@media screen and (max-width : 767px) {
+    footer {
+        /* padding: 5% 15%; */
+        padding: 7% 15% 2% 10%;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    footer {
+        text-align: center;
+    }
+}
+
+/*  */
+@media screen and (max-width : 397px) {
+    .nav-item {
+        margin: 0 0.5rem 0 0;
+    }
+
+    nav {
+        /* padding: 1.5rem 1rem !important; */
+        padding: 1.5rem 0 1.5rem 1rem !important;
+    }
+
+    .nav-item select {
+        padding: 0;
+    }
+    
+    .sign-in-btn {
+        padding: 0;
+    }
+
+}
